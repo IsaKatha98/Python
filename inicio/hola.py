@@ -22,3 +22,32 @@ if num%2==0:
 else: 
     print ("No es par")
 
+if num>0 and num<=100:
+    print ("El número está entre 1 y 100")
+
+if num<0 or num>=100:
+    print ("El número no está en el rango.")
+
+if not num%2==0:
+    print ("El número es impar.")
+
+
+num1= int (input("Número: "))
+
+var= "par" if (num1%2==0) else "impar"
+
+print (var)
+
+
+num2= int (input("Número: "))
+i=1
+suma=0
+while i<=num:
+    print (i)
+    suma+=i
+    i+=1
+
+print (suma)
+
+for contador in range(1, 101):
+    print(contador)
