@@ -7,12 +7,15 @@ class Animal:
 
     def habla (self):
         
-        self.habla=""
+        res=""
+
+        return res
+        
     
     def __str__(self) -> str:
         
         res="Me llamo "+self.nombre+",\n"
-        res+="tengo "+self.numPatas+", \n"
-        res+="y sueno así: "+self.habla
+        res+="tengo "+str(self.numPatas)+", \n"
+        res+="y sueno así: "+str(self.habla)
 
         return res

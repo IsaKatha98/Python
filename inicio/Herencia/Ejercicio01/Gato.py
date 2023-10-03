@@ -1,19 +1,18 @@
 from Animal import *
+class Gato(Animal):
 
-class Perro:
-
-     def __init__(self, nombre, numPatas) -> None:
+    def __init__(self, nombre, numPatas) -> None:
         super().__init__(nombre, numPatas)
 
     def habla (self):
 
-        res="Guau"
+        res="Miau"
 
         return res
     
     def __str__(self) -> str:
-        res="Soy un perro.\n"
-        res+= super().__str__
+        res="Soy un gato.\n"
+        res+= str(super().__str__)
 
         return res
     

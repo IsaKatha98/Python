@@ -1,11 +1,13 @@
 f= open ('inicio\\Ficheros\\enteros.txt', 'rt')
 
-num= []
+lista= []
 for linea in f.readlines():
-   
-   if linea!="":
-        num+= linea
+        num+= int(linea)
+        lista.append=num
 
-f.close()
+print(lista)
 
-print(num)
+lista.sort
+f.close
+
+filew=
